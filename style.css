@@ -1,0 +1,113 @@
+/* Reset de estilos */
+body, figure,  h2, h3, p, ul, li, form, label, input, textarea {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1
+{
+  margin: 100px;
+}
+#imagen-cambiante
+{
+  width: 300px;
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("imagenes/proyectoEnAndroid/1.jpeg");
+}
+.foto
+{
+  border-radius: 50%;
+  position: absolute;
+  width: 150px;
+  height: 125px;
+}
+.header
+{
+
+  position: fixed;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  padding: 20px;
+  transition: background-color 1.5s ease;
+  opacity: 1;
+}
+.header ul
+{
+  padding-left: 170px;
+
+}
+.header font
+{
+  padding-left: 185px;
+  
+  top: 10px;
+  
+}
+.header.transparente
+{
+  opacity: 0;
+  pointer-events: auto; 
+}
+.header:hover
+{
+  opacity: 1;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+section {
+  padding: 40px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 20px;
+}
+
+.proyecto {
+  margin-bottom: 20px;
+}
+
+form label, form textarea, form input[type="text"], form input[type="email"], form input[type="submit"] {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
