@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mi Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header" class="header">
+    <img src="imagenes/yo.jpg" class="foto">
+    <font size="7">Trevisan Ignacio</font>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="inicio">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2 >Bienvenido/a a mi Portfolio</h2>
+    <p>¡Hola! Soy tecnico superior en desarrollo de software y aqui puedes encontrar informacion sobre mi, y mis proyectos</p>
+  </section>
+  <section id="sobre-mi">
+    <h2>Sobre Mí</h2>
+    <p>Soy un apasionado del desarrollo web y de software. Me encanta crear soluciones creativas y funcionales para los desafíos en el desarrollo. tengo, ademas de mi secundario tecnico horientado a la programacion y mi titulo en desarrollo de software, mucho tiempo en investigacion, estudio y pruebas por mi cuenta ya que siempre me gusto la programacion y sus ramas</p>
+  </section>
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <img src="imagenes/html.png" width="100px">
+      <img src="imagenes/css.png" width="100px">
+      <img src="imagenes/javascript.png" width="100px">
+      <img src="imagenes/php.png" width="100px">
+      <img src="imagenes/mysql.png" width="100px">
+      <br>
+      <img src="imagenes/c.png" width="100px">
+      <img src="imagenes/ca.png" width="100px">
+      <img src="imagenes/c++.png" width="100px">
+      <img src="imagenes/as.png" width="100px">
+      <img src="imagenes/python.png" width="100px">
+    </ul>
+  </section>
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="proyecto">
+      <img src="imagenes/proyecto.png" alt="Proyecto 1">
+      <h3>Administracion de empleados</h3>
+      <p>Es una captura de un proyecto que hice en el transcurso de un semestre de cursada en mi instituto, trata sobre una aplicacion de control de empleados en una empresa, esta aplicacion, como se ve en la izquierda de la imagen permite dar de alta empleados, de baja, modificarlos, buscar, o consultar sus datos, esta aplicacion esta conectada con MySql y es totalmente funcional, como este hice varios proyectos para practicar, ya que estos proyectos se defienden en el final. Pero, en caso de querer probar el proyecto, esta en mi <a href ="https://github.com/ignacioTrevisan">github<a></p>
+    </div>
+    <div class="proyecto">
+      <div id="imagen-cambiante">
+      </div>
+      
+      <h3>Control de stock</h3>
+      <p>Es una aplicacion para android que hice en android studio usando ademas, sqLite, esta permite registrar compras, productos, consultarlas, realizar ventas y llevar control de todo esto</p>
+    </div>
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si estás interesado/a en trabajar conmigo o tienes alguna consulta, no dudes en ponerte en contacto conmigo.</p>
+   <a href="https://api.whatsapp.com/send/?phone=5493455484369" target="_blank">Contactar por WhatsApp</a>
+   <p>o sino...</p>
+    <h1>Formulario de contacto</h1>
+  <form action="mailto:nachotizii989@gmail.com" method="post" enctype="text/plain">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br>
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+    <br>
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea>
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+  </section>
+  <footer>
+    <p>Derechos de autor © 2023. Todos los derechos reservados.</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
