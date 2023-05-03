@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
 /* Reset de estilos */
 body, figure,  h2, h3, p, ul, li, form, label, input, textarea {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-h1
+*
 {
-  margin: 100px;
+  font-family: 'Source Code Pro', monospace;
 }
+
 #imagen-cambiante
 {
   width: 300px;
@@ -37,6 +39,22 @@ h1
   padding: 20px;
   transition: background-color 1.5s ease;
   opacity: 1;
+}
+#sobre-mi
+{
+  background-color: #FFF1EE;
+}
+#sobre-mi h1
+{
+  margin: 100px;
+}
+#formu
+{
+  background-color: #5c4b7a;
+}
+#formu h1
+{
+ color:white;
 }
 .header ul
 {
@@ -96,16 +114,19 @@ h1, h2, h3 {
 
 form label, form textarea, form input[type="text"], form input[type="email"], form input[type="submit"] {
   display: block;
+  color: white;
   margin-bottom: 10px;
 }
 
 form input[type="text"], form input[type="email"], form textarea {
   width: 100%;
+  box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
   padding: 5px;
 }
 
 form input[type="submit"] {
   background-color: #333;
+  box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
   color: #fff;
   padding: 10px 20px;
   border: none;
