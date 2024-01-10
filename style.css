@@ -1,25 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
 /* Reset de estilos */
-body, figure,  h2, h3, p, ul, li, form, label, input, textarea {
+body,
+figure,
+h2,
+h3,
+p,
+ul,
+li,
+form,
+label,
+input,
+textarea {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-*
-{
+
+* {
   font-family: 'Source Code Pro', monospace;
 }
 
+.imagen-primer-proyecto {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
 
-.foto
-{
+.elemento {
+  flex: 1 0 auto;
+  margin: 0 50px;
+  width: 500px;
+  height: 250px;
+}
+
+.elemento img {
+  width: 100%;
+  height: 100%;
+  object-fit: hidden;
+  transition: 0.5s;
+}
+
+.elemento img:hover {
+  scale: 1.2;
+}
+
+.foto {
   border-radius: 50%;
   position: absolute;
-  width: 150px;
+  width: 125px;
   height: 125px;
 }
-.header
-{
+
+.header {
 
   position: fixed;
   background-color: #333;
@@ -33,54 +66,54 @@ body, figure,  h2, h3, p, ul, li, form, label, input, textarea {
   transition: background-color 1.5s ease;
   opacity: 1;
 }
-#sobre-mi
-{
+
+#sobre-mi {
   background-color: #FFF1EE;
 }
-#sobre-mi h1
-{
+
+#sobre-mi h1 {
   margin: 100px;
 }
-#habilidades
-{
+
+#habilidades {
   background-color: #FCF7D1;
 }
-#proyectos
-{
+
+#proyectos {
   background-color: #EFFCD1;
   border: 1px solid black;
 }
-#proyectos img
-{
+
+#proyectos img {
   padding: 20px;
 }
-#formu
-{
+
+#formu {
   background-color: #5c4b7a;
 }
-#formu h1
-{
- color:white;
+
+#formu h1 {
+  color: white;
 }
-.header ul
-{
+
+.header ul {
   padding-left: 170px;
 
 }
-.header font
-{
+
+.header font {
   padding-left: 185px;
-  
+
   top: 10px;
-  
+
 }
-.header.transparente
-{
+
+.header.transparente {
   opacity: 0;
-  pointer-events: auto; 
+  pointer-events: auto;
 }
-.header:hover
-{
+
+.header:hover {
   opacity: 1;
 }
 
@@ -108,7 +141,9 @@ section {
   padding: 40px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin-bottom: 20px;
 }
 
@@ -116,19 +151,24 @@ h1, h2, h3 {
   margin-bottom: 20px;
 }
 
-form label, form textarea,  form input[type="submit"] {
+form label,
+form textarea,
+form input[type="submit"] {
   display: block;
   color: white;
   margin-bottom: 10px;
 }
 
-form label, form input[type ="email"],form input[type="text"]
-{
+form label,
+form input[type="email"],
+form input[type="text"] {
   display: block;
   margin-bottom: 10px;
 }
 
-form input[type="text"], form input[type="email"], form textarea {
+form input[type="text"],
+form input[type="email"],
+form textarea {
   width: 100%;
   box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
   padding: 5px;
@@ -142,6 +182,3 @@ form input[type="submit"] {
   border: none;
   cursor: pointer;
 }
-
-
-
